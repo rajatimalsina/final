@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bored App</title>
+    <link rel=stylesheet href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="http://www.cs.unc.edu/~kmp/comp426/jquery-3.5.1.js"></script>
+    <script src="Pokemon.js"></script>
+    <script src="PokemonView.js"></script>
+    <script src="pokemonApp.js"></script>
+    <script src="Movie.js"></script>
+    <script src="MovieView.js"></script>
+    <script src="Fact.js"></script>
+    <script src="FactView.js"></script>
+
+</head>
+  <body>
+  <section class="section">
+    <div id = "gameReset" class="container">
+      <h1 class="title">Welcome to the perfect place to come when you are bored </h1>
+      <p>There are three options:</p>
+      <h3> 1. If you want to play a game, click on Pokemon Game.</h3>
+      <h4> 2. If you want a movie recommendation, click on Movies.</h4>
+      <h5> 3. If you feel like learning random facts, click on Random Fact.</h5>
+      <div id="gameList">
+          <button id = "pokeClick" class = "button is-warning">Pokemon Game</button>
+          <button id = "movieClick" class = "button is-danger">Movies</button>
+          <button id ="factClick" class = "button is-success">Random Fact</button>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
